@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.atlassian.net/*", "https://*.herocoders.com/issue/*"],
+      "matches": ["https://*.atlassian.net/*", "https://*jirachecklist.com/*", "https://*.herocoders.com/issue/*"],
       "js": ["script.js"],
       "css": ["style.css"],
       "all_frames":true
